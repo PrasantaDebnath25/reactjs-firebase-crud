@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "@firebase/firestore";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyBtUIgWU0Qtcer0yFJsb6gBtqyewvZrBac",
   authDomain: "test-notification-f1fac.firebaseapp.com",
