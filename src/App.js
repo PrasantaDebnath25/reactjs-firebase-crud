@@ -38,7 +38,7 @@ function App() {
 
   useEffect(() => {
     getUsers();
-  }, [ ]);
+  }, []);
 
   const getUsers = async () => {
     const data = await getDocs(usersCollectionRef);
@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <input
-      type="text"
+        type="text"
         placeholder="Name.."
         onChange={(event) => {
           setNewName(event.target.value);
@@ -63,7 +63,7 @@ function App() {
       />
 
       <button onClick={createUser}> Create User</button>
-      {users && users.length> 0 && users.map((user) => {
+      {users && users.length > 0 && users.map((user) => {
         return (
           <div>
             {" "}
