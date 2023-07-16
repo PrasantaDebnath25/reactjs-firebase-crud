@@ -19,6 +19,7 @@ function App() {
   const usersCollectionRef = collection(db, "users");
 
   const createUser = async () => {
+    console.log(usersCollectionRef)
     await addDoc(usersCollectionRef, { name: newName, age: Number(newAge) });
     getUsers();
   };
