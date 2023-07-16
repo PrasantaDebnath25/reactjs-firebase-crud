@@ -32,6 +32,7 @@ function App() {
 
   const deleteUser = async (id) => {
     const userDoc = doc(db, "users", id);
+    console.log(userDoc)
     await deleteDoc(userDoc);
     getUsers();
   };
