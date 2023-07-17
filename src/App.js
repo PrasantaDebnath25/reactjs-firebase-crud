@@ -53,14 +53,14 @@ function App() {
     <div className="App">
       <input
         type="text"
-        placeholder="Name.."
+        placeholder="Name..."
         onChange={(event) => {
           setNewName(event.target.value);
         }}
       />
       <input
         type="number"
-        placeholder="Age.."
+        placeholder="Age..."
         onChange={(event) => {
           setNewAge(event.target.value);
         }}
