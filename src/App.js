@@ -55,6 +55,7 @@ function App() {
   return (
     <div className="App">
       <input
+      value={newName}
         type="text"
         placeholder="Name..."
         onChange={(event) => {
