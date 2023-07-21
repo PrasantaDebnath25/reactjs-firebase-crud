@@ -63,6 +63,7 @@ function App() {
         }}
       />
       <input
+      value={newAge}
         type="number"
         placeholder="Age..."
         onChange={(event) => {
