@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="App">
       <input
-      value={newName}
+        value={newName}
         type="text"
         placeholder="Name..."
         onChange={(event) => {
@@ -63,7 +63,7 @@ function App() {
         }}
       />
       <input
-      value={newAge}
+        value={newAge}
         type="number"
         placeholder="Age..."
         onChange={(event) => {
