@@ -21,6 +21,7 @@ function App() {
   const createUser = async () => {
     console.log(usersCollectionRef)
     await addDoc(usersCollectionRef, { name: newName, age: Number(newAge) });
+    //Reset Fields
     setNewName("");
     setNewAge(0);
     getUsers();
