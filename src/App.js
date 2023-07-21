@@ -69,7 +69,7 @@ function App() {
         }}
       />
 
-      <button onClick={createUser}> Create User</button>
+      <button onClick={createUser} disabled={!newName} > Create User</button>
       {users && users.length > 0 && users.map((user) => {
         return (
           <div>
